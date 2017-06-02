@@ -12,7 +12,7 @@ import java.sql.*;
  */
 public class Connect {
     public static int checkUser(String user, String pass) {
-        String url = "jdbc:postgresql://localhost:5432/shop";
+        String url = "jdbc:postgresql://93.125.57.7:5432/shop";
         String username = "range";
         String password = "root";
 
